@@ -26,11 +26,11 @@
                 </tr>
                 <tr>
                     <td> Pre-Tax Deduct: </td>
-                    <td> <input type ="text" name="pretax" value="" size ="50"> </td>
+                    <td> <input type ="text" name="pretax" value="" size ="50" required> </td>
                </tr>  
                <tr>
                     <td> Post-Tax Deduct: </td>
-                    <td> <input type ="text" name="posttax" value="" size ="50"> </td>
+                    <td> <input type ="text" name="posttax" value="" size ="50" required> </td>
                 </tr>
                 </tbody>
             </table>  
