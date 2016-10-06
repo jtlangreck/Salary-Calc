@@ -18,11 +18,11 @@
                 <tbody>
                 <tr>
                     <td> Hours Worked: </td>
-                    <td> <input type ="text" name="hours" value="" size ="50"> </td>
+                    <td> <input type ="text" name="hours" value="" size ="50" required> </td>
                 </tr>
                 <tr>
                     <td> Hourly Pay: </td>
-                    <td> <input type ="text" name="wages" value="" size ="50"> </td>
+                    <td> <input type ="text" name="wages" value="" size ="50" required> </td>
                 </tr>
                 <tr>
                     <td> Pre-Tax Deduct: </td>

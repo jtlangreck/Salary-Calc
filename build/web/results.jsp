@@ -11,6 +11,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>SalaryResults</title>
     </head>
+    
+    <%
+        int HoursWorked = Integer.parseInt(request.getParameter("hours"));
+        int hrlywage = Integer.parseInt(request.getParameter("wages"));
+        int prtax = Integer.parseInt(request.getParameter("pretax"));
+        int potax = Integer.parseInt(request.getParameter("posttax"));
+        %>
+    
     <body>
         <h1>Salary info</h1>
         
@@ -18,19 +26,19 @@
             <tbody>
                 <tr>
                     <td> Total Hours Worked: </td>   
-                    <td> </td>
+                    <td><%= HoursWorked %>  </td>
                 </tr>
                 <tr>
                     <td> Hourly Rate: </td>   
-                    <td> </td>
+                    <td> <%= hrlywage %>  </td>
                 </tr>
                 <tr>
                     <td> # Hours Overtime:  </td>   
-                    <td> </td>
+                    <td> <%= prtax %>  </td>
                 </tr>
                 <tr>
                     <td> Overtime Hourly Rate: </td>   
-                    <td> </td>
+                    <td> <%= potax %>  </td>
                 </tr>
                 <tr>
                     <td> Gross Pay: </td>   
