@@ -10,7 +10,7 @@ and open the template in the editor.
 
 body {
     background-color: lightskyblue;
-    width: 80%;
+    width: 60%;
     padding: 10px;
     margin-left: 35%;
 }
@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     margin-left: 1%;
     border-bottom: 3px solid white;
-    width: 40%;
+    width: 54%;
     padding: 5px;
     color: white;
     font-size: 24px;
@@ -32,7 +32,7 @@ h1 {
 
 #output {
     width: 25%;
-    margin-left: 9%;
+    margin-left: 15%;
     background: white;
     border: none;
     color: black;
