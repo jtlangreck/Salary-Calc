@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2016, 6:48:08 PM
+    Author     : Jake Langreck
+*/
+
+body {
+    background-color: lightskyblue;
+    width: 80%;
+    padding: 10px;
+    margin-left: 35%;
+}
+
+
+table {
+    margin-left: 1%;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-left: 1%;
+    border-bottom: 3px solid white;
+    width: 40%;
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+#output {
+    width: 25%;
+    margin-left: 9%;
+    background: white;
+    border: none;
+    color: black;
+}
+
+#output tr {
+    outline: 2px solid black;
+}
+.submis
+{
+    width: 9%;
+    margin-left: 12%;
+}
+
+#output #out {
+    text-align: center;
+} 
+.desc{
+    text-align: right;
+    outline: 2px solid black;
+}
