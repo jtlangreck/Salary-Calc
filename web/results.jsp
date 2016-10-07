@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>SalaryResults</title>
     </head>
@@ -55,51 +56,51 @@
     <body>
         <h1>Salary info</h1>
         
-        <table>
+        <table id = "output">
             <tbody>
                 <tr>
-                    <td> Total Hours Worked: </td>   
-                    <td><%= HoursWorked %>  </td>
+                    <td class="desc"> Total Hours Worked: </td>   
+                    <td class="out">$<%= HoursWorked %>  </td>
                 </tr>
                 <tr>
-                    <td> Hourly Rate: </td>   
-                    <td> <%= hrlywage %>  </td>
+                    <td class="desc"> Hourly Rate: </td>   
+                    <td class="out"> $<%= hrlywage %>  </td>
                 </tr>
                 <tr>
-                    <td> # Hours Overtime:  </td>   
-                    <td> $<%= overtime %> </td>
+                    <td class="desc"> # Hours Overtime:  </td>   
+                    <td class="out"> <%= overtime %> </td>
                 </tr>
                 <tr>
-                    <td> Overtime Pay: </td>   
-                    <td> $<%= otpay %>  </td>
+                    <td class="desc"> Overtime Pay: </td>   
+                    <td class="out"> $<%= otpay %>  </td>
                 </tr>
                 <tr>
-                    <td> Gross Pay: </td>   
-                    <td> $<%= grosspay %> </td>
+                    <td class="desc"> Gross Pay: </td>   
+                    <td class="out"> $<%= grosspay %> </td>
                 </tr>
                 <tr>
-                    <td> Pre-tax Deductions: </td>   
-                    <td> $<%= prtax %> </td>
+                    <td class="desc"> Pre-tax Deductions: </td>   
+                    <td class="out"> $<%= prtax %> </td>
                 </tr>
                 <tr>
-                    <td> Pre-tax Pay: </td>   
-                    <td> $<%= taxablePay %> </td>
+                    <td class="desc"> Pre-tax Pay: </td>   
+                    <td class="out"> $<%= taxablePay %> </td>
                 </tr>
                 <tr>
-                    <td> Tax Amount: </td>   
-                    <td> $<%= taxamnt %> </td>
+                    <td class="desc"> Tax Amount: </td>   
+                    <td class="out"> $<%= taxamnt %> </td>
                 </tr>
                 <tr>
-                    <td> Post-tax Pay: </td>   
-                    <td> $<%= postpay %> </td>
+                    <td class="desc"> Post-tax Pay: </td>   
+                    <td class="out"> $<%= postpay %> </td>
                 </tr>
                 <tr>
-                    <td> Post-tax Deductions: </td>   
-                    <td> $<%= potax %>  </td>
+                    <td class="desc"> Post-tax Deductions: </td>   
+                    <td class="out"> $<%= potax %>  </td>
                 </tr>
                 <tr>
-                    <td> Net Pay: </td>   
-                    <td> $<%= netpay %> </td>
+                    <td class="desc"> Net Pay: </td>   
+                    <td class="out"> $<%= netpay %> </td>
                 </tr>
             </tbody>
         </table>
