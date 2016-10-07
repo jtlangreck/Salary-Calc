@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Salary Calculator</title>
     </head>
@@ -34,9 +35,9 @@
                 </tr>
                 </tbody>
             </table>  
-            
-            <input type="reset" value ="Clear" id="clear">
-            <input type="submit" value ="Submit" id ="submit">
+            <br>
+            <input class= "submis" type="reset" value ="Clear" id="clear">
+            <input class= "submis" type="submit" value ="Submit" id ="submit">
         </form>
     </body>
 </html>
